@@ -1,1 +1,8 @@
 # frappe -- https://github.com/frappe/frappe is installed via 'bench init'
+# pip install python-docx
+# pip install docx
+# pip install docxtpl
+python-docx
+docx
+docxtpl
+aspose-words
