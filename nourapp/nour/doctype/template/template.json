@@ -1,33 +1,30 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2023-04-16 09:52:13.079120",
+ "autoname": "Template-.#####",
+ "creation": "2023-04-19 04:34:06.184681",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "test_name",
-  "download_file"
+  "template"
  ],
  "fields": [
   {
-   "fieldname": "download_file",
-   "fieldtype": "Button",
-   "label": "Download File"
-  },
-  {
-   "fieldname": "test_name",
-   "fieldtype": "Data",
-   "label": "Test Name"
+   "fieldname": "template",
+   "fieldtype": "Table",
+   "label": "Template",
+   "options": "Template Table"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-19 05:23:41.891989",
+ "modified": "2023-04-19 04:35:05.339481",
  "modified_by": "Administrator",
  "module": "Nour",
- "name": "New Doctype",
+ "name": "Template",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {

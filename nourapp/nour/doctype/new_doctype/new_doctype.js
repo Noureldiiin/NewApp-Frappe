@@ -3,7 +3,7 @@
 
 frappe.ui.form.on('New Doctype', {
 	// refresh: function(frm) {
-		button: function(frm) {
+		download_file: function(frm) {
 			frm.doc.cows = []
 			frappe.call({
 				doc: frm.doc,
